@@ -1,0 +1,72 @@
+{
+  "workExperience": [
+    {
+      "id": 1,
+      "company": "UniParticle",
+      "position": "Full-Stack Developer",
+      "period": "Sep 2024 - Present",
+      "responsibilities": [
+        "Worked on revamping APIs, marketplaces, and dashboards for the Aman website using Magento 2 backend",
+        "Designed and implemented multiple modules, enhancing the functionality and performance of the platform",
+        "Collaborated with cross-functional teams to optimize user experience and ensure seamless integration of new features",
+        "Developed and maintained dynamic web and mobile applications using React and React Native",
+        "Integrated payment gateways and shipping providers (Movex, Aramex, etc.) to expand e-commerce functionality and streamline logistics"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "2B",
+      "position": "Magento Developer",
+      "period": "Jul 2024 - Apr 2025",
+      "responsibilities": [
+        "Specialized in Magento development, contributing expertise to enhance the user experience and visual appeal of e-Commerce websites",
+        "Crafted and maintained front-end code for Magento-based platforms, ensuring seamless integration of designs, responsive layouts, and optimal performance",
+        "Collaborated closely with cross-functional teams to implement dynamic web solutions, adhering to Magento standards and best practices, and actively participated in testing, deployment, and ongoing updates for e-Commerce websites",
+        "Developed and maintained kiosk smart screen interfaces for in-store digital experiences, integrating them with the main e-commerce system"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "DB Group",
+      "position": "Frontend Developer",
+      "period": "May 2024 - Present",
+      "responsibilities": [
+        "Developed and maintained websites using ReactJS, Astro.js, and Next.js, enhancing user interfaces and overall performance",
+        "Utilized Node.js for backend development, ensuring efficient server-side logic and seamless integration with frontend technologies",
+        "Integrated multiple backend services to streamline workflows and improve platform scalability"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Raneen",
+      "position": "Magento Developer",
+      "period": "Dec 2023 - Jul 2024",
+      "responsibilities": [
+        "Specialized in  Magento development, contributing expertise to enhance the user experience and visual appeal of e-Commerce websites",
+        "Crafted and maintained front-end code for Magento-based platforms, ensuring seamless integration of designs, responsive layouts, and optimal performance",
+        "Collaborated closely with cross-functional teams to implement dynamic web solutions, adhering to Magento standards and best practices, and actively participated in testing, deployment, and ongoing updates for e-Commerce websites",
+        "Created the 2B-CS website using WordPress, including developing custom themes and plugins to meet the Company requirements and improve the user experience"
+      ]
+    },
+    {
+      "id": 5,
+      "company": "2B",
+      "position": "Magento Developer",
+      "period": "Jun 2022 - Dec 2023",
+      "responsibilities": [
+        "Under the supervision of the UX manager and development team, I maintained web pages, graphics, and online marketing materials",
+        "Created and maintained front-end code for e-Commerce websites (re-designs, seasonal updates, production work)",
+        "Identified and implemented dynamic web solutions following company standards and best practices",
+        "Assisted the development team in developing e-Commerce Websites with testing, deployment, and updates",
+        "Conducted performance optimization and scalability testing to ensure optimal website speed and responsiveness, and implemented caching and other performance-enhancing techniques as needed"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Faculty of Law English Section",
+      "institution": "University",
+      "period": "2015 - 2020"
+    }
+  ]
+}

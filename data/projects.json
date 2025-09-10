@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Kaza E-Commerce Platform",
+      "description": "Created and maintained a comprehensive e-Commerce website with modern design, responsive layouts, and optimal performance. Implemented dynamic web solutions following company standards and best practices.",
+      "image": "/modern-ecommerce-website-with-shopping-cart-and-pr.jpg",
+      "technologies": [
+        "Magento 2",
+        "JavaScript",
+        "CSS",
+        "PHP",
+        "Performance Optimization"
+      ],
+      "liveUrl": "https://www.kaza.com.eg",
+      "period": "2022-2025",
+      "company": "2B",
+      "type": "E-Commerce"
+    },
+    {
+      "id": 2,
+      "title": "2B  Website",
+      "description": "Maintained and enhanced the main 2B e-Commerce website with re-designs, seasonal updates, and production work. Conducted performance optimization and scalability testing to ensure optimal website speed.",
+      "image": "/corporate-business-website-with-clean-design-and-p.jpg",
+      "technologies": [
+        "Magento 2",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Performance Testing"
+      ],
+      "liveUrl": "https://www.2b.com.eg",
+      "period": "2022-2025",
+      "company": "2B",
+      "type": "Corporate"
+    },
+    {
+      "id": 3,
+      "title": "Raneen SmartStore",
+      "description": "Specialized in Frontend Magento development, crafting and maintaining front-end code for Magento-based platforms. Ensured seamless integration of designs and responsive layouts.",
+      "image": "/smart-retail-store-interface-with-modern-dashboard.jpg",
+      "technologies": [
+        "Magento 2",
+        "Frontend Development",
+        "Responsive Design",
+        "Cross-functional Collaboration",
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "smartStore": true,
+      "period": "2023-2024",
+      "company": "Raneen",
+      "type": "Retail"
+    },
+    {
+      "id": 4,
+      "title": "2B-CS WordPress Site",
+      "description": "Created the 2B-CS website using WordPress, including developing custom themes and plugins to meet company requirements and improve user experience.",
+      "image": "/wordpress-website-with-custom-theme-and-profession.jpg",
+      "technologies": [
+        "WordPress",
+        "Custom Themes",
+        "Plugin Development",
+        "PHP",
+        "User Experience"
+      ],
+      "liveUrl": "https://www.2b-cs.com",
+      "period": "2023-2024",
+      "company": "2B",
+      "type": "CMS"
+    },
+    {
+      "id": 5,
+      "title": "Aman",
+      "description": "Worked on revamping APIs, marketplaces, and dashboards using Magento 2 backend. Designed and implemented multiple modules, integrated payment gateways and shipping providers.",
+      "image": "/marketplace-platform-with-multiple-vendors-and-mod.jpg",
+      "technologies": [
+        "Magento 2",
+        "React",
+        "React Native",
+        "Payment Integration",
+        "API Development"
+      ],
+      "liveUrl": "https://www.amanstores.com",
+      "period": "2024-Present",
+      "company": "UniParticle",
+      "type": "Marketplace"
+    },
+    {
+      "id": 6,
+      "title": "Anasity Website",
+      "description": "Created and maintained a comprehensive e-Commerce website with modern design, responsive layouts, and optimal performance. Implemented dynamic web solutions following company standards and best practices.",
+      "image": "/marketplace-platform-with-multiple-vendors-and-mod.jpg",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Redis",
+        "Payment Integration",
+        "API Development"
+      ],
+      "liveUrl": "https://anasity.vercel.app/",
+      "githubUrl": "https://github.com/a-nagdy/anasityshop",
+      "period": "Present",
+      "company": "Self Project",
+      "type": "E-Commerce",
+      "underDevelopment": true
+    }
+  ],
+  "stats": {
+    "projectsCompleted": "6+",
+    "companiesWorked": "5",
+    "clientSatisfaction": "100%",
+    "yearsExperience": "4+"
+  }
+}

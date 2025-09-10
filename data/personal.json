@@ -1,0 +1,33 @@
+{
+  "name": "Ahmed Mohamed",
+  "title": "Full-Stack Developer",
+  "experience": "4+ Years",
+  "contact": {
+    "email": "ahmednagdy165@gmail.com",
+    "phone": "01090065807",
+    "location": "Cairo, Egypt",
+    "github": "https://github.com/a-nagdy"
+  },
+  "bio": {
+    "summary": "A highly motivated Full-Stack Developer with 4+ Years of experience in developing and implementing user-friendly websites and applications using React, NextJS and Magento2. Skilled in developing responsive and interactive web designs, proficient in JavaScript, HTML, CSS, Magento2, ReactJS And Next.JS.",
+    "description": "Possessing strong analytical and problem-solving skills, with a passion for staying up-to-date with the latest technologies and trends in the industry. Seeking a challenging role in a dynamic organization where I can utilize my skills and expertise in Frontend development to deliver exceptional solutions."
+  },
+  "languages": [
+    {
+      "name": "Arabic",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional"
+    }
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Team Collaboration",
+    "Performance Optimization",
+    "Responsive Design",
+    "E-commerce Development"
+  ],
+  "cvFile": "./ahmed-mohamed-cv.pdf"
+}

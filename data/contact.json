@@ -1,0 +1,33 @@
+{
+  "contactInfo": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to work together? I'd love to hear about your project and discuss how I can help bring your ideas to life.",
+    "email": "ahmednagdy165@gmail.com",
+    "phone": "01090065807",
+    "location": "Cairo, Egypt",
+    "github": "https://github.com/a-nagdy",
+    "description": "I'm always interested in new opportunities and exciting projects. Whether you're looking for a full-stack developer, need help with an existing project, or just want to say hello, feel free to reach out!"
+  },
+  "formFields": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Your full name",
+      "required": true
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "your.email@example.com",
+      "required": true
+    },
+    "subject": {
+      "label": "Subject",
+      "placeholder": "What's this about?",
+      "required": true
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell me about your project or inquiry...",
+      "required": true
+    }
+  }
+}
