@@ -26,7 +26,7 @@ export function AboutSection() {
 
           <Card className="mb-8">
             <CardContent className="p-8">
-              <div className="flex justify-between items-start mb-6">
+              <div className="flex justify-between item-center md:items-start mb-6 flex-col md:flex-row ">
                 <div className="flex-1">
                   <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                     {personalData.bio.summary}

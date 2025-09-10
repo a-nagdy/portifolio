@@ -9,6 +9,7 @@ import { Calendar, ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import { EnhancedCard } from "./enhanced-card";
+import { YearsOfExpDate } from "@/lib/YearsOfExpDate";
 
 function PrimaryActionButton({
   project,
@@ -285,7 +286,7 @@ export function ProjectsSection() {
                   </div>
                   <div>
                     <div className="text-3xl font-bold text-primary mb-2">
-                      {projectsData.stats.yearsExperience}
+                      {YearsOfExpDate()}
                     </div>
                     <div className="text-muted-foreground">
                       Years Experience

@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import skillsData from "@/data/skills.json";
+import { YearsOfExpDate } from "@/lib/YearsOfExpDate";
 import { motion } from "framer-motion";
 import { useCallback, useMemo, useState } from "react";
 import { EnhancedCard } from "./enhanced-card";
@@ -137,7 +138,7 @@ export function SkillsSection() {
                 <div className="grid md:grid-cols-3 gap-8 text-center">
                   <div>
                     <div className="text-3xl font-bold text-primary mb-2">
-                      {skillsData.stats.yearsExperience}
+                      {YearsOfExpDate()}
                     </div>
                     <div className="text-muted-foreground">
                       Years Experience

@@ -1,8 +1,8 @@
 "use client";
 
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { YearsOfExpDate } from "@/lib/YearsOfExpDate";
 import { Download, Github, Mail, MapPin, Phone } from "lucide-react";
 import { Suspense, lazy } from "react";
 
@@ -52,7 +52,7 @@ export default function Portfolio() {
   // Location: Egypt, Cairo, Nasr City
 
   // PROFILE:
-  // A highly motivated Full-Stack Developer with 3+ Years of experience in developing
+  // A highly motivated Full-Stack Developer with {YearsOfExpDate()} Years of experience in developing
   // and implementing user-friendly websites and applications using React, NextJS and
   // Magento2. Skilled in developing responsive and interactive web designs, proficient
   // in JavaScript, HTML, CSS, Magento2, ReactJS And Next.JS, Possessing strong
@@ -114,8 +114,6 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-background">
-
-
       {/* Hero Section with 3D Background */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* 3D Canvas Background */}
@@ -143,8 +141,8 @@ export default function Portfolio() {
               Ahmed Mohamed
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
-              3+ Years of experience crafting exceptional web experiences with
-              React, Next.js, and Magento2
+              {YearsOfExpDate()} Years of experience crafting exceptional web
+              experiences with React, Next.js, and Magento2
             </p>
           </div>
 
