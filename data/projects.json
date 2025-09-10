@@ -109,6 +109,23 @@
       "company": "Self Project",
       "type": "E-Commerce",
       "underDevelopment": true
+    },
+    {
+      "id": 6,
+      "title": "Zoop App",
+      "description": "Developed a pet care mobile app where users can create pet profiles, book appointments with veterinarians, and manage their pets' health records. Additionally, built a separate app for doctors and assistants to efficiently manage bookings and appointments they receive.",
+      "image": "/marketplace-platform-with-multiple-vendors-and-mod.jpg",
+      "technologies": [
+        "React Native",
+        "Payment Integration",
+        "API Development"
+      ],
+      "period": "2024-Present",
+      "company": "UniParticle",
+      "type": "Mobile App",
+      "mobileApp": true,
+      "mobileAppUrl": "https://play.google.com/store/apps/details?id=com.uniparticle.zoop",
+      "underDevelopment": true
     }
   ],
   "stats": {

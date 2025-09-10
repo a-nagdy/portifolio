@@ -7,9 +7,73 @@ import projectsData from "@/data/projects.json";
 import { motion } from "framer-motion";
 import { Calendar, ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
+import { useState } from "react";
 import { EnhancedCard } from "./enhanced-card";
 
+function PrimaryActionButton({
+  project,
+}: {
+  project: {
+    liveUrl?: string;
+    mobileApp?: boolean;
+    mobileAppUrl?: string;
+    smartStore?: boolean;
+    underDevelopment?: boolean;
+  };
+}) {
+  if (project.liveUrl) {
+    return (
+      <Button size="sm" variant="default" asChild className="w-full">
+        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+          <ExternalLink className="w-4 h-4 mr-2" />
+          View Website
+        </a>
+      </Button>
+    );
+  }
+
+  if (project.mobileApp) {
+    if (project.underDevelopment) {
+      return (
+        <Button size="sm" variant="default" className="w-full" disabled>
+          Under Development
+        </Button>
+      );
+    }
+    return (
+      <Button size="sm" variant="default" asChild className="w-full">
+        <a
+          href={project.mobileAppUrl || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ExternalLink className="w-4 h-4 mr-2" />
+          View Mobile App
+        </a>
+      </Button>
+    );
+  }
+
+  if (project.smartStore) {
+    return (
+      <Button size="sm" variant="default" className="w-full" disabled>
+        <ExternalLink className="w-4 h-4 mr-2" />
+        Smart Screen (In Store)
+      </Button>
+    );
+  }
+
+  return (
+    <Button size="sm" variant="secondary" className="w-full" disabled>
+      Unavailable
+    </Button>
+  );
+}
+
 export function ProjectsSection() {
+  const [showAll, setShowAll] = useState(false);
+  const allProjects = projectsData.projects;
+  const projects = showAll ? allProjects : allProjects.slice(0, 3);
   return (
     <section id="projects" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -31,7 +95,7 @@ export function ProjectsSection() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
-            {projectsData.projects.map((project, index) => (
+            {projects.map((project, index) => (
               <EnhancedCard key={project.id} index={index} className="h-full">
                 <Card className="group overflow-hidden bg-card border-border relative hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
                   <div className="relative overflow-hidden">
@@ -152,26 +216,7 @@ export function ProjectsSection() {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                       >
-                        <Button
-                          size="sm"
-                          variant="default"
-                          asChild
-                          className="w-full"
-                          disabled={!project.liveUrl}
-                        >
-                          {project.liveUrl ? (
-                            <a
-                              href={project.liveUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <ExternalLink className="w-4 h-4 mr-2" />
-                              View Project
-                            </a>
-                          ) : (
-                            <span>Smart Screen (In Store)</span>
-                          )}
-                        </Button>
+                        <PrimaryActionButton project={project} />
                       </motion.div>
                       <motion.div
                         whileHover={{ scale: 1.02 }}
@@ -195,6 +240,14 @@ export function ProjectsSection() {
               </EnhancedCard>
             ))}
           </div>
+
+          {allProjects.length > 6 && (
+            <div className="mt-8 flex justify-center">
+              <Button onClick={() => setShowAll((v) => !v)} variant="outline">
+                {showAll ? "View Less" : "View More"}
+              </Button>
+            </div>
+          )}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

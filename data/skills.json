@@ -5,31 +5,33 @@
       "icon": "🎨",
       "skills": [
         { "name": "React", "level": 90, "color": "bg-blue-500" },
-        { "name": "Next.js", "level": 85, "color": "bg-gray-800" },
+        { "name": "Next.js", "level": 90, "color": "bg-gray-800" },
         { "name": "JavaScript", "level": 90, "color": "bg-yellow-500" },
-        { "name": "TypeScript", "level": 80, "color": "bg-blue-600" },
+        { "name": "TypeScript", "level": 90, "color": "bg-blue-600" },
         { "name": "HTML/CSS", "level": 95, "color": "bg-orange-500" },
-        { "name": "Tailwind CSS", "level": 85, "color": "bg-cyan-500" },
-        { "name": "Bootstrap", "level": 80, "color": "bg-purple-600" },
-        { "name": "Redux", "level": 75, "color": "bg-purple-700" }
+        { "name": "Tailwind CSS", "level": 95, "color": "bg-cyan-500" },
+        { "name": "Bootstrap", "level": 95, "color": "bg-purple-600" },
+        { "name": "Redux", "level": 85, "color": "bg-purple-700" },
+        { "name": "React Native", "level": 80, "color": "bg-purple-700" }
       ]
     },
     {
       "title": "Backend",
       "icon": "⚙️",
       "skills": [
-        { "name": "Node.js", "level": 80, "color": "bg-green-600" },
-        { "name": "REST API", "level": 85, "color": "bg-blue-500" },
-        { "name": "GraphQL", "level": 70, "color": "bg-pink-500" },
-        { "name": "Magento 2", "level": 85, "color": "bg-orange-600" }
+        { "name": "Node.js", "level": 90, "color": "bg-green-600" },
+        { "name": "REST API", "level": 95, "color": "bg-blue-500" },
+        { "name": "GraphQL", "level": 80, "color": "bg-pink-500" },
+        { "name": "Magento 2", "level": 90, "color": "bg-orange-600" },
+        { "name": "PHP", "level": 85, "color": "bg-purple-700" }
       ]
     },
     {
       "title": "Database",
       "icon": "🗄️",
       "skills": [
-        { "name": "MySQL", "level": 80, "color": "bg-blue-700" },
-        { "name": "MongoDB", "level": 75, "color": "bg-green-500" },
+        { "name": "MySQL", "level": 90, "color": "bg-blue-700" },
+        { "name": "MongoDB", "level": 95, "color": "bg-green-500" },
         { "name": "SQL", "level": 85, "color": "bg-gray-600" }
       ]
     },
@@ -37,15 +39,19 @@
       "title": "Tools & DevOps",
       "icon": "🛠️",
       "skills": [
-        { "name": "Git", "level": 85, "color": "bg-red-500" },
+        { "name": "Git", "level": 100, "color": "bg-red-500" },
         { "name": "Jest", "level": 70, "color": "bg-red-600" },
-        { "name": "WordPress", "level": 75, "color": "bg-blue-800" },
-        { "name": "Performance Optimization", "level": 80, "color": "bg-green-700" }
+        { "name": "WordPress", "level": 80, "color": "bg-blue-800" },
+        {
+          "name": "Performance Optimization",
+          "level": 90,
+          "color": "bg-green-700"
+        }
       ]
     }
   ],
   "stats": {
-    "yearsExperience": "3+",
+    "yearsExperience": "4+",
     "technologies": "15+",
     "companies": "5+"
   }

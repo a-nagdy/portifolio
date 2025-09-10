@@ -8,10 +8,12 @@ import { Download } from "lucide-react";
 
 export function AboutSection() {
   const handleDownloadCV = () => {
-    const link = document.createElement("a");
-    link.href = personalData.cvFile;
-    link.download = `${personalData.name.replace(" ", "_")}_CV.pdf`;
-    link.click();
+    const a = document.createElement("a");
+    a.href = "/Ahmed-Nagdy.pdf"; // directly accessible
+    a.download = "Ahmed-Nagdy-cv.pdf";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
   };
 
   return (
