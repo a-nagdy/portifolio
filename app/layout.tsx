@@ -9,11 +9,11 @@ import type { Metadata } from "next";
 import type React from "react";
 import { Suspense } from "react";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Ahmed Mohamed - Full Stack Developer",
   description: `Portfolio of Ahmed Mohamed, a Full Stack Developer with ${YearsOfExpDate()} years of experience in React, Next.js, and Magento2`,
-  generator: "v0.app",
 };
 
 export default function RootLayout({
@@ -35,6 +35,7 @@ export default function RootLayout({
             {children}
             <Toaster />
             <Analytics />
+            <SpeedInsights />
           </ThemeProvider>
         </Suspense>
         <Analytics />
